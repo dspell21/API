@@ -1,1 +1,28 @@
-{"summary":{"API-Version":"v1","API-Name":"Get All Products","Date":"2016-10-21T03:28:24.820-04:00","LastDataRefreshDate":"2016-10-05T00:22:01.073","locale":{"country":"US","language":"en"},"rowCount":"3"},"Data":{"Header":["UPC","productName","department","category","subCategory","segment","subSegment","commodityGroup","competitiveCategory","commonConsumerName","brandOwnerHigh","brandOwnerLow","brandHigh","brandLow","packageGeneralShape","baseSize","deal","multi"],"Record":[["928495820192","FIZZY TASTEY APPLE CINNAMON FLAVORED 32OZ CIDER","ALCOHOL","ALCOHOLIC CIDER","ALCOHOLIC CIDER","ALCOHOLIC CIDER","ALCOHOLIC CIDER","HARD CIDER AND CHAMPAGNE CIDER","LIQUOR-HARD CIDER","HARD CIDER","POP COMPANY","POP COMPANY","FIZZY TASTEY","FIZZY TASTEY","BOTTLE","32 FLUID OUNCE","NON-DEAL","001"],["2394837293817","Children's PILL BRAND HEADACHE AND NAUSEA LIQUID 16OZ GRAPE FLAVORED MEDICATION","HEALTH CARE","PAIN RELIEF","HEADACHE AND BODY PAIN REMEDY CHILD","HEADACHE AND BODY PAIN REMEDY CHILD","HEADACHE AND BODY PAIN REMEDY CHILD","HEADACHE AND BODY PAIN REMEDY","HEADACHE & BODY PAIN REMEDY-CHILD-FL OZ","PAIN RELIEVER AND FEVER REDUCER","JACKSON HEALTH CARE","JACKSON PHARMACEUTICAL DIVISION ","PILL BRAND","PILL BRAND","BOTTLE","16 FLUID OUNCE","NON-DEAL","004"],["043279834675","CHEW AND SPIT Non Aromatic SPEARMENT 1.2 Ounce 15 Count","TOBACCO AND TOBACCO ALTERNATIVES","TRADITIONAL TOBACCO","SNUFF","SNUFF","SNUFF","TOBACCO AND SNUFF","CHEWING TOBACCO & SNUFF","SNUFF","PREM TABACCO","PREM TABACCO COMPANY LLC","CHEW AND SPIT","CHEW AND SPIT","CANISTER","1.2 OUNCE","NON-DEAL","015"]]}}
+GET /NLSNAPI/prodRef/v1/allProducts HTTP/1.1
+Accept:
+application/json
+Accept-Encoding:
+gzip
+Accept-Language:
+en-US
+apikey:
+Host:
+api.developer.nielsen.com
+sec-ch-ua:
+Not;A Brand";v="99
+sec-ch-ua-mobile:
+?0
+Sec-Fetch-Dest:
+empty
+Sec-Fetch-Mode:
+cors
+Sec-Fetch-Site:
+cross-site
+User-Agent:
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+X-Forwarded-For:
+108.90.172.104
+X-Forwarded-Port:
+443
+X-Forwarded-Proto:
+https
